@@ -1,6 +1,6 @@
-FROM rust:1.73.0-alpine3.18
+FROM rust:1.77.1-alpine3.19
 
-ENV CARGO_GEN_VERSION="0.18.5"
+ENV CARGO_GEN_VERSION="0.20.0"
 
 # downloads from: https://github.com/cargo-generate/cargo-generate/releases/download/v0.18.4/cargo-generate-v0.18.4-x86_64-unknown-linux-musl.tar.gz
 RUN set -eux; \
