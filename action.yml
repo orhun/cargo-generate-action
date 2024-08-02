@@ -19,6 +19,6 @@ runs:
   args:
     - --path
     - ${{ inputs.template }}
-    - ${{ inputs.arguments }}
     - --name
     - ${{ inputs.name }}
+    - ${{ inputs.arguments }}
